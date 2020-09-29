@@ -11,7 +11,9 @@ const loadTitle = () => {
 const printTitle = () => {
   loadTitle().then((title) => {
     console.log(title);
+    return title;
   });
 };
 
 exports.printTile = printTitle;
+exports.loadTitle = loadTitle;
