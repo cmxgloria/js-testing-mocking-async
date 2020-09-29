@@ -7,9 +7,12 @@
     "axios": "^0.20.0"
   },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
+    "start": "webpack app.js --mode development --watch",
     "test": "jest"
   },
   "repository": {
